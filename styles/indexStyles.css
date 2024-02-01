@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+:root {
+    --primary-color: #F8DE22;
+    --secondary-color: #C70039;
+    --accent-color: #F94C10;
+    --background-color: #900C3F;
+    --text-color: #17699B;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Gamja Flower, sans-serif;
+  }
+  
+  a {
+    color: var(--accent-color);
+  }
+  
+  .header {
+    background-color: var(--primary-color);
+  }
+  
+  .button {
+    background-color: var(--secondary-color);
+  }
